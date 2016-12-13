@@ -1,0 +1,10 @@
+name: validate-version
+version: 0.0.1
+description: A public step for use with Wercker CI that will validate the version of the build/container.
+keywords:
+  - validate
+  - version
+  - git
+  - commit
+  - build
+  - docker
