@@ -8,3 +8,10 @@ keywords:
   - commit
   - build
   - docker
+properties:
+  version:
+    type: string
+    required: true
+  url:
+    type: string
+    required: true
