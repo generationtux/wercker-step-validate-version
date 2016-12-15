@@ -5,4 +5,3 @@ A public step for use with Wercker CI that will validate the version of the buil
 
     - validate-version:
         url: [YOUR_SERVICE_URL]
-        version: [YOUR_GIT_COMMIT_HASH]
