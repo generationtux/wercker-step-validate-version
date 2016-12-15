@@ -6,5 +6,5 @@ fi
 info "curling this url:"
 info "$WERCKER_VALIDATE_VERSION_URL?version=$WERCKER_GIT_COMMIT"
 
-curl "$WERCKER_VALIDATE_VERSION_URL?version=$WERCKER_GIT_COMMIT" -s --fail && \
+curl "$WERCKER_VALIDATE_VERSION_URL?version=$WERCKER_GIT_COMMIT" --silent --fail --show-error --output /dev/null && \
 success "$WERCKER_VALIDATE_VERSION_URL is running:\n$WERCKER_GIT_COMMIT"
